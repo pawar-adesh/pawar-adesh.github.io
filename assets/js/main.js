@@ -10,7 +10,7 @@
 //       document.querySelector(".course-details").appendChild(image);
 //  }
 
-  
+window.location.href.split('#')[0]
 
   var images = ["course1.jpg", "course2.jpg", "course3.jpg", "course4.jpg", "course5.jpg", "course6.jpg", "course7.jpg", "course8.jpg"];
   var names=["Programming for Everybody (Getting Started with Python) | May 2020", "Python Data Structures | Jul 2020", "Introduction to HTML5 | Sep 2020",  "Crash Course on Python | Sep 2020", "Using Python to Interact with the Operating System | Oct 2020", "Front-End Web UI Frameworks and Tools: Bootstrap 4 | Dec 2021", "AWS Academy Cloud Foundations | April 2022", "AWS Academy Cloud Architecting | May 2022"]

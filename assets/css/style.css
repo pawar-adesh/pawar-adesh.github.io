@@ -48,7 +48,7 @@ h6 {
   font-size: 20px;
   padding: 18px 18px;
   border-radius: 50%;
-  box-shadow: 2px 4px 6px #626060;
+  /* box-shadow: 2px 4px 6px #626060; */
   background-color: var(--hover-primary--color);
   color: var(--secondary-color);
 }
@@ -278,7 +278,7 @@ section {
   width: 280px;
   height: 280px;
   border-radius: 50%;
-  box-shadow: 5px 8px 5px #626060;
+  /* box-shadow: 5px 8px 5px #626060; */
 }
 .adesh .content #hero h1 {
   margin: 15px 0 0 0;
