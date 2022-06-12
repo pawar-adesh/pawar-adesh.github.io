@@ -394,6 +394,21 @@ section {
   text-align: justify;
   font-size: small;
 }
+@media (max-width: 600px) {
+  .courses h4{
+    width: fit-content;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--primary-color);
+  }
+  .award-details{
+    margin-left: 5px;
+    justify-content: center;
+
+  }
+  .need-margin{
+    margin-top: 17px;
+  }
+}
 /* .view{
   display: none;
 } */
