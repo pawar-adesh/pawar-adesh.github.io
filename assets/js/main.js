@@ -12,8 +12,8 @@
 
 window.location.href.split('#')[0]
 
-  var images = ["course1.jpg", "course2.jpg", "course3.jpg", "course4.jpg", "course5.jpg", "course6.jpg", "course7.jpg", "course8.jpg"];
-  var names=["Programming for Everybody (Getting Started with Python) | May 2020", "Python Data Structures | Jul 2020", "Introduction to HTML5 | Sep 2020",  "Crash Course on Python | Sep 2020", "Using Python to Interact with the Operating System | Oct 2020", "Front-End Web UI Frameworks and Tools: Bootstrap 4 | Dec 2021", "AWS Academy Cloud Foundations | April 2022", "AWS Academy Cloud Architecting | May 2022"]
+  var images = ["course1.jpg", "course2.jpg", "course3.jpg", "course4.jpg", "course5.jpg", "course6.jpg", "course7.jpg", "course8.jpg","course9.jpg","course10.jpg"];
+  var names=["Programming for Everybody (Getting Started with Python) | May 2020", "Python Data Structures | Jul 2020", "Introduction to HTML5 | Sep 2020",  "Crash Course on Python | Sep 2020", "Using Python to Interact with the Operating System | Oct 2020", "Front-End Web UI Frameworks and Tools: Bootstrap 4 | Dec 2021", "Salesforce Essentials | Jun 2022", "Introduction to Data Science | Jun 2022", "AWS Academy Cloud Foundations | April 2022", "AWS Academy Cloud Architecting | May 2022"]
 
   var placeHolder = document.getElementsByClassName("course-details");
   for (var i = 0; i < images.length; i++) {
@@ -21,8 +21,8 @@ window.location.href.split('#')[0]
     placeHolder[0].insertAdjacentHTML("beforeend", markUp);
 
   };
-  var t_images = ["train1.jpg", "train2.jpg", "train3.jpg", "train4.jpg"];
-  var t_names=["IIT Spoken Tutorial Cpp Training | Jan 2021", "IIT Spoken Tutorial C Training | Jan 2021", "IIT Spoken Tutorial Advanced Cpp Training | July 2021", "IIT Spoken Tutorial Python 3.4.3 Training | Dec 2021", ]
+  var t_images = ["train1.jpg", "train2.jpg", "train3.jpg", "train4.jpg", "train5.jpg"];
+  var t_names=["IIT Spoken Tutorial Cpp Training | Jan 2021", "IIT Spoken Tutorial C Training | Jan 2021", "IIT Spoken Tutorial Advanced Cpp Training | July 2021", "IIT Spoken Tutorial Python 3.4.3 Training | Dec 2021", "Salesforce Visualrforce Pages | June 2022"]
 
   var placeHolder1 = document.getElementsByClassName("train-details");
   for (var i = 0; i < t_images.length; i++) {
